@@ -1,7 +1,16 @@
 .count-window {
+    display: flex;
     margin: 0 auto;
     border: 2px solid black;
     width: 50%;
     height: 2rem;
+    justify-content: center;
+}
+
+.clicker {
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+    justify-content: center;
 }
 
