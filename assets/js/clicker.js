@@ -1,6 +1,6 @@
 const clicker = document.getElementById('clickBtn');
-const clicker = document.getElementById('window');
+let windowCount = document.getElementById('window');
 
 const addOne = () => {
-    clickBtn.onClick
-}
+    windowCount++;
+};
