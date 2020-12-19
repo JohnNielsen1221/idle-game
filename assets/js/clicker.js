@@ -7,15 +7,13 @@ const addOne = () => {
 
 setTimeout(start, 5000);
 
-var i = 1;
+var i = 0;
 
 function start() {
-  setInterval(increase, 10000);
+  setInterval(increase, 1000);
 }
 
 function increase() {
-    if (i < 100) {
       i++;
       windowCount.value = i;
-    }
 };
